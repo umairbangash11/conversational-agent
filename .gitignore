@@ -8,3 +8,30 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables and sensitive data
+.env
+.env.*
+*.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
